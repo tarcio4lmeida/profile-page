@@ -1,8 +1,11 @@
-
-* {
-    box-sizing: border-box;
+/* experience card css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 html, body{
     padding: 0;
@@ -212,14 +215,6 @@ footer{
     }
 }
 
-/* experience card css */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .experience-container {
     background-color: #f5f5f5;
